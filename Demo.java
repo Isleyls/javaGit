@@ -12,7 +12,7 @@ public class Demo
 		{
 			System.out.println("Welcome to the Lottery! Choose a number between 1-30. "
 					+ "Winning number is randomized");
-			int winningNum = rand.nextInt(20)+1;
+			int winningNum = rand.nextInt(30)+1;
 			int guess = kb.nextInt();
 		if(guess==winningNum)
 		{
